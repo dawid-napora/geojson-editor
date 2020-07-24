@@ -1,4 +1,4 @@
-# geojson-editor
+<h1 align="center">GeoJSON Editor<br/>🌍👨‍💻📝</h1>
 
 ## Project setup
 ```

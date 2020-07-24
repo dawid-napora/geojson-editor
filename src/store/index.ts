@@ -3,13 +3,12 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
-})
+export interface State {
+  theme: 'light' | 'dark';
+}
+
+const state: State = {
+  theme: 'light'
+}
+
+export default new Vuex.Store<State>({ state })
